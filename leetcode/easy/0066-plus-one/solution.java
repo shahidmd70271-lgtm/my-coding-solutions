@@ -1,0 +1,17 @@
+class Solution {
+    public int[] plusOne(int[] a) {
+        int n=a.length;
+        boolean add=false;
+        for(int i=n-1;i>=0;i--){
+            if(a[i]<9){
+                a[i]++;
+                return a;
+            }
+        }
+        
+            int[] res=new int[n+1];
+            res[0]=1;
+            return res;
+        
+    }
+}
