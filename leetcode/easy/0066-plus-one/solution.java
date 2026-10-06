@@ -7,6 +7,7 @@ class Solution {
                 a[i]++;
                 return a;
             }
+            a[i]=0;
         }
         
             int[] res=new int[n+1];
