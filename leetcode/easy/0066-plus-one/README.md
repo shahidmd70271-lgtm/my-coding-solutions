@@ -54,9 +54,9 @@ Thus, the result should be [1,0].
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 42.5 MB  
-**Submitted:** 2026-10-06T16:24:30.408Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 43.1 MB (beats 89.89%)  
+**Submitted:** 2026-10-06T16:26:16.262Z  
 
 ```java
 class Solution {
@@ -68,6 +68,7 @@ class Solution {
                 a[i]++;
                 return a;
             }
+            a[i]=0;
         }
         
             int[] res=new int[n+1];
