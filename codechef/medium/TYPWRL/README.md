@@ -62,7 +62,7 @@ abcdefghijklmnopqrstuvwxyz
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T15:36:16.217Z  
+**Submitted:** 2026-10-07T15:38:47.218Z  
 
 ```java
 import java.util.*;
@@ -80,6 +80,8 @@ class Codechef
 		    int n2=sc.nextInt();
 		    String s1=sc.next();
 		    String s2=sc.next();
+		    
+		    
 		    
 		    
 		}
