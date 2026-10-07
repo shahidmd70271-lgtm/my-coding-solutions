@@ -45,8 +45,8 @@ Output: [3,4,6,16,17]
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 44 MB (beats 93.00%)  
-**Submitted:** 2026-10-07T16:16:53.345Z  
+**Memory:** 44.5 MB (beats 17.29%)  
+**Submitted:** 2026-10-07T16:17:17.819Z  
 
 ```java
 class Solution {
@@ -54,7 +54,6 @@ class Solution {
         int n=nums.length;
         int[] r=new int[n];
         r[0]=nums[0];
-
         for(int i=1;i<n;i++){
             r[i]=r[i-1]+nums[i];
         }
