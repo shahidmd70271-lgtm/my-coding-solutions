@@ -10,7 +10,7 @@ class Codechef
 		int x=sc.nextInt();
 		int k=sc.nextInt();
 		int y=sc.nextInt();
-		if(y%k==0&&k<=x*k){
+		if(y%k==0&&y<=x*k){
 		    System.out.println("YES");
 		}else{
 		    System.out.println("NO");
