@@ -37,12 +37,13 @@ Output: [1,2,3,4,8,12,11,10,9,5,6,7]
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 43.2 MB (beats 9.39%)  
-**Submitted:** 2026-10-08T17:31:25.961Z  
+**Memory:** 43 MB (beats 43.49%)  
+**Submitted:** 2026-10-08T17:33:33.287Z  
 
 ```java
 class Solution {
     public List<Integer> spiralOrder(int[][] a) {
+        //Intializing Variables
         int n=a.length;
         int m=a[0].length;
         int top=0,left=0;
@@ -50,20 +51,24 @@ class Solution {
         List<Integer> ans=new ArrayList<>();
         //Min Logic
         while(top<=bottom&&left<=right){
+            //To travers Left to Right
             for(int i=left ;i<=right;i++){
                     ans.add(a[top][i]);
             }
             top++;
+            //To go from Top to Bottom
             for(int i=top;i<=bottom;i++){
                 ans.add(a[i][right]);
             }
             right--;
+            //To go from Right to Left
             if(top<=bottom){
                 for(int i=right;i>=left;i--){
                     ans.add(a[bottom][i]);
                 }
                 bottom--;
             }
+            //To go from Bottom to Top
             if(left<=right){
                 for(int i=bottom;i>=top;i--){
                     ans.add(a[i][left]);
