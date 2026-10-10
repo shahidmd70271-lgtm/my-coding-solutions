@@ -46,8 +46,8 @@ The array answer is [|0 - 0|] = [0].
 
 **Language:** Java  
 **Runtime:** 2 ms (beats 98.86%)  
-**Memory:** 46.7 MB (beats 32.30%)  
-**Submitted:** 2026-10-10T05:37:47.060Z  
+**Memory:** 46.5 MB (beats 52.08%)  
+**Submitted:** 2026-10-10T05:38:53.171Z  
 
 ```java
 class Solution {
@@ -55,9 +55,11 @@ class Solution {
         int n=a.length;
         int sum=0,leftsum=0;
         int[] ans=new int[n];
+        //Total sum
         for(int i=0;i<n;i++){
             sum+=a[i];
         }
+        // removing the current element and finding the sum
         for(int i=0;i<n;i++){
             sum-=a[i];
             ans[i]=Math.abs(sum-leftsum);
