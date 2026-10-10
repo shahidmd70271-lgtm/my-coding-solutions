@@ -46,8 +46,8 @@ The array answer is [|0 - 0|] = [0].
 
 **Language:** Java  
 **Runtime:** 2 ms (beats 98.86%)  
-**Memory:** 46.5 MB (beats 52.08%)  
-**Submitted:** 2026-10-10T05:38:53.171Z  
+**Memory:** 46.4 MB (beats 72.24%)  
+**Submitted:** 2026-10-10T05:39:09.757Z  
 
 ```java
 class Solution {
