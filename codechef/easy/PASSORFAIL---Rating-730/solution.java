@@ -9,10 +9,18 @@ class Codechef
 		Scanner sc=new Scanner(System.in);
 		int t=sc.nextInt();
 		while(t-->0){
-		    int a[]=new int[3];
-		    for(int i=0;i<3;i++)a[i]=sc.nextInt();
-		    Arrays.sort(a);
-		    System.out.println(a[1]);
+		    int n=sc.nextInt();
+		    int x=sc.nextInt();
+		    int p=sc.nextInt();
+		    int correct=x*3;
+		    int incorrect=(n-x)*(1);
+		    int total=correct-incorrect;
+		    if(total>=p){
+		        System.out.println("PASS");
+		    }else{
+		        System.out.println("FAIL");
+		    }
+		    
 		    
 		}
 
