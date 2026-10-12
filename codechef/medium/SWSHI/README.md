@@ -76,7 +76,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-12T14:41:27.092Z  
+**Submitted:** 2026-10-12T14:41:39.681Z  
 
 ```java
 import java.util.*;
@@ -100,7 +100,7 @@ class Codechef
 		    }
 		    Arrays.sort(a);
 		    for(int i=0;i<n;i++){
-		        if(x-[i]>=0){
+		        if(x-a[i]>=0){
 		            count++;
 		            x=x-a[i];
 		        }
