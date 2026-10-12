@@ -15,8 +15,8 @@ class Codechef
 		    for(int i=0;i<n;i++) a[i]=sc.nextInt();
 		    Arrays.sort(a);
 		    int sum=0;
-		    for(int i=n-k+1;k<n;k++)
-		    sum+=a[k];
+		    for(int i=n-k;i<n;i++)
+		    sum+=a[i];
 		    System.out.println(sum);
 		    
 		}
