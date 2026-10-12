@@ -1,0 +1,26 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc=new Scanner(System.in);
+		int t=sc.nextInt();
+		while(t-- >0){
+		double a=sc.nextInt();
+	    double x=sc.nextInt();
+		double b=sc.nextInt();
+		double y=sc.nextInt();
+		if((a/x)>(b/y)){
+        System.out.println("Alice");
+		}else if((a/x)==(b/y)){
+		    System.out.println("Equal");
+		}else{
+		    System.out.println("BOb");
+		}
+		}
+
+	}
+}
