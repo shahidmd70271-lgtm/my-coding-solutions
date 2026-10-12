@@ -13,9 +13,9 @@ class Codechef
 		int x=sc.nextInt();
 		int b=sc.nextInt();
 		int y=sc.nextInt();
-		if(a/x>b/y){
+		if((a/x)>(b/y)){
         System.out.println("Alice");
-		}else if(a/x==b/y){
+		}else if((a/x)==(b/y)){
 		    System.out.println("Equal");
 		}else{
 		    System.out.println("BOb");
