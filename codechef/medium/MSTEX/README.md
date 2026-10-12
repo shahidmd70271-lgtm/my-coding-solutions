@@ -63,7 +63,7 @@ For the third test case, Chef buys only the most expensive item, which costs $11
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-12T14:28:11.978Z  
+**Submitted:** 2026-10-12T14:30:21.899Z  
 
 ```java
 import java.util.*;
@@ -83,8 +83,8 @@ class Codechef
 		    for(int i=0;i<n;i++) a[i]=sc.nextInt();
 		    Arrays.sort(a);
 		    int sum=0;
-		    for(int i=n-k+1;k<n;k++)
-		    sum+=a[k];
+		    for(int i=n-k;i<n;i++)
+		    sum+=a[i];
 		    System.out.println(sum);
 		    
 		}
