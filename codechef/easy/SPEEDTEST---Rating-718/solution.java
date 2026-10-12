@@ -9,10 +9,10 @@ class Codechef
 		Scanner sc=new Scanner(System.in);
 		int t=sc.nextInt();
 		while(t-- >0){
-		int a=sc.nextInt();
-		int x=sc.nextInt();
-		int b=sc.nextInt();
-		int y=sc.nextInt();
+		double a=sc.nextInt();
+	    double x=sc.nextInt();
+		double b=sc.nextInt();
+		double y=sc.nextInt();
 		if((a/x)>(b/y)){
         System.out.println("Alice");
 		}else if((a/x)==(b/y)){
