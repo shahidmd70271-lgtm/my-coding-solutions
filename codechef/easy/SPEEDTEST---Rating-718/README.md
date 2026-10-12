@@ -55,7 +55,7 @@ Alice
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-12T13:39:56.103Z  
+**Submitted:** 2026-10-12T13:41:14.847Z  
 
 ```java
 import java.util.*;
@@ -73,9 +73,9 @@ class Codechef
 		int x=sc.nextInt();
 		int b=sc.nextInt();
 		int y=sc.nextInt();
-		if(a/x>b/y){
+		if((a/x)>(b/y)){
         System.out.println("Alice");
-		}else if(a/x==b/y){
+		}else if((a/x)==(b/y)){
 		    System.out.println("Equal");
 		}else{
 		    System.out.println("BOb");
