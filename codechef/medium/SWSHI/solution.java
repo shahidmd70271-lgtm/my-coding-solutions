@@ -19,7 +19,7 @@ class Codechef
 		    }
 		    Arrays.sort(a);
 		    for(int i=0;i<n;i++){
-		        if(x-[i]>=0){
+		        if(x-a[i]>=0){
 		            count++;
 		            x=x-a[i];
 		        }
