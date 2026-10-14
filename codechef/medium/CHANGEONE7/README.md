@@ -53,31 +53,34 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T16:02:49.631Z  
+**Submitted:** 2026-10-14T16:14:47.544Z  
 
 ```java
+
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 
-class Codechef
-{
-	public static void main (String[] args) throws java.lang.Exception
-	{
-		Scanner sc=new Scanner(System.in);
-		int t=sc.nextInt();
-		while(t-->0){
-		    int n=sc.nextInt();
-		    int a[]=new int[n];
-		    for(int i=0;i<n;i++){
-		        a[i]=sc.nextInt();
-		    }
-		    Arrays.sort(a);
-		    
-		    
-		}
+class Codechef {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
 
-	}
+        while (t-- > 0) {
+            int n = sc.nextInt();
+            int[] a = new int[n];
+
+            for (int i = 0; i < n; i++) {
+                a[i] = sc.nextInt();
+            }
+
+            Arrays.sort(a);
+
+            int ans = Math.min(a[n - 1] - a[1],
+                               a[n - 2] - a[0]);
+
+            System.out.println(ans);
+        }
+        sc.close();
+    }
 }
 
 ```
