@@ -14,6 +14,7 @@ class Codechef
 		    for(int i=0;i<n;i++){
 		        a[i]=sc.nextInt();
 		    }
+		    
 		    Arrays.sort(a);
 		    int ans=Integer.MAX_VALUE;
 		    for(int i=1;i<n;i++){
