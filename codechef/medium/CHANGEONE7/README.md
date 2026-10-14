@@ -53,7 +53,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T16:07:56.557Z  
+**Submitted:** 2026-10-14T16:14:16.965Z  
 
 ```java
 import java.util.*;
@@ -72,6 +72,7 @@ class Codechef
 		    for(int i=0;i<n;i++){
 		        a[i]=sc.nextInt();
 		    }
+		    
 		    Arrays.sort(a);
 		    int ans=Integer.MAX_VALUE;
 		    for(int i=1;i<n;i++){
