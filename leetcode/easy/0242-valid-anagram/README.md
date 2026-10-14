@@ -35,8 +35,8 @@ Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `f
 
 **Language:** Java  
 **Runtime:** 18 ms (beats 13.43%)  
-**Memory:** 46.1 MB (beats 47.52%)  
-**Submitted:** 2026-10-14T16:24:16.767Z  
+**Memory:** 45.8 MB (beats 48.41%)  
+**Submitted:** 2026-10-14T16:23:46.455Z  
 
 ```java
 class Solution {
