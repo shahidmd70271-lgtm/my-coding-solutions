@@ -51,8 +51,8 @@ It can be shown we cannot convert 3 to 4 in less than 3 steps. Hence, we return 
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 42 MB (beats 86.23%)  
-**Submitted:** 2026-10-16T16:17:21.179Z  
+**Memory:** 42 MB (beats 93.53%)  
+**Submitted:** 2026-10-16T16:17:32.031Z  
 
 ```java
 class Solution {
