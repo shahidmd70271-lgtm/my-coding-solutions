@@ -50,9 +50,9 @@ It can be shown we cannot convert 3 to 4 in less than 3 steps. Hence, we return 
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms (beats 100.00%)  
+**Runtime:** 1 ms (beats 6.28%)  
 **Memory:** 42 MB (beats 93.53%)  
-**Submitted:** 2026-10-16T16:17:32.031Z  
+**Submitted:** 2026-10-16T16:17:38.584Z  
 
 ```java
 class Solution {
