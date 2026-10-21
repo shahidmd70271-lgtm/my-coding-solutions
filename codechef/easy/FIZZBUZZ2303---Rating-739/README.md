@@ -50,7 +50,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-21T10:41:09.528Z  
+**Submitted:** 2026-10-21T10:48:59.035Z  
 
 ```java
 import java.util.*;
@@ -66,7 +66,7 @@ class Codechef
 		while(t-->0){
 		    int n=sc.nextInt();
 		    int ans=1<<n;
-		    System.out.println(ans-2);
+		    System.out.println(n*(n-1));
 		    
 		}
 
