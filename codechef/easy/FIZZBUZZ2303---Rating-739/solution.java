@@ -11,7 +11,7 @@ class Codechef
 		while(t-->0){
 		    int n=sc.nextInt();
 		    int ans=1<<n;
-		    System.out.println(ans-2);
+		    System.out.println(n*(n-1));
 		    
 		}
 
