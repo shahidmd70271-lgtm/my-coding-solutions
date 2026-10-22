@@ -58,7 +58,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-22T10:23:20.776Z  
+**Submitted:** 2026-10-22T10:24:35.975Z  
 
 ```java
 import java.util.*;
@@ -77,7 +77,7 @@ class Codechef
 		    int a=sc.nextInt();
 		    int b=sc.nextInt();
 		    int count=2;
-		    if((x+y)==(a+b)){
+		    if((x==a||x==b)&(y==a||y==b)){
 		        count=0;
 		    }
 		    else if(x==a||x==b){
