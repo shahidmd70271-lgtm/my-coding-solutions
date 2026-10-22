@@ -49,8 +49,8 @@ Return the  **minimum**  number of deletions needed to make `nums` sharp.
 
 **Language:** Java  
 **Runtime:** 1 ms (beats 100.00%)  
-**Memory:** 45.1 MB (beats 100.00%)  
-**Submitted:** 2026-10-22T09:32:16.567Z  
+**Memory:** 45.5 MB (beats 92.72%)  
+**Submitted:** 2026-10-22T09:32:25.180Z  
 
 ```java
 class Solution {
