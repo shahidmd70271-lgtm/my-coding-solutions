@@ -14,7 +14,7 @@ class Codechef
 		    int a=sc.nextInt();
 		    int b=sc.nextInt();
 		    int count=2;
-		    if((x+y)==(a+b)){
+		    if((x==a||x==b)&(y==a||y==b)){
 		        count=0;
 		    }
 		    else if(x==a||x==b){
