@@ -38,8 +38,8 @@ The sum of digits of `x` is `5`. `23` is not divisible by `5`. So `23` is not a 
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 41.6 MB (beats 92.37%)  
-**Submitted:** 2026-10-26T14:25:01.612Z  
+**Memory:** 41.7 MB (beats 92.37%)  
+**Submitted:** 2026-10-26T14:25:13.253Z  
 
 ```java
 class Solution {
