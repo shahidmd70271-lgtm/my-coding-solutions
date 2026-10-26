@@ -9,11 +9,11 @@ class Codechef
 		Scanner sc=new Scanner(System.in);
 		int t=sc.nextInt();
 		while(t-->0){
-		    int n=sc.nextInt();
-		    int x=n;
-		    int sum=0;
+		    long n=sc.nextLong();
+		    long x=n;
+		    long sum=0;
 		    while(x>0){
-		        int rem=x%10;
+		        long rem=x%10;
 		        sum+=rem;
 		        x=x/10;
 		    }
