@@ -57,7 +57,7 @@ For the third account number, the digit sum is $10$, which is divisible by $10$.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-26T14:39:32.628Z  
+**Submitted:** 2026-10-26T14:40:46.811Z  
 
 ```java
 import java.util.*;
@@ -71,11 +71,11 @@ class Codechef
 		Scanner sc=new Scanner(System.in);
 		int t=sc.nextInt();
 		while(t-->0){
-		    int n=sc.nextInt();
-		    int x=n;
-		    int sum=0;
+		    long n=sc.nextLong();
+		    long x=n;
+		    long sum=0;
 		    while(x>0){
-		        int rem=x%10;
+		        long rem=x%10;
 		        sum+=rem;
 		        x=x/10;
 		    }
