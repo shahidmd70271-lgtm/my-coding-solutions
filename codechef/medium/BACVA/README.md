@@ -57,29 +57,27 @@ For the third account number, the digit sum is $10$, which is divisible by $10$.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-26T14:44:20.132Z  
+**Submitted:** 2026-10-26T14:45:40.085Z  
 
 ```java
-import java.io.*;
+import java.util.*;
 
 class Codechef {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(
-            new InputStreamReader(System.in));
-
-        int t = Integer.parseInt(br.readLine().trim());
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
 
         while (t-- > 0) {
-            long n = Long.parseLong(br.readLine().trim());
+            String n = sc.next();
             int sum = 0;
 
-            while (n > 0) {
-                sum += n % 10;
-                n /= 10;
+            for (int i = 0; i < n.length(); i++) {
+                sum += n.charAt(i) - '0';
             }
 
             System.out.println(sum % 10 == 0 ? "Valid" : "Invalid");
         }
+        sc.close();
     }
 }
 ```
