@@ -70,7 +70,7 @@ Therefore, the decoded message is `beunstoppable`.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-26T15:17:28.700Z  
+**Submitted:** 2026-10-26T15:19:00.699Z  
 
 ```java
 import java.util.*;
@@ -82,11 +82,8 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner sc=new Scanner(System.in);
-		int t=sc.nextInt();
-		while(t-->0){
-		    
-		    
-		}
+		String s=sc.next();
+		
 
 	}
 }
