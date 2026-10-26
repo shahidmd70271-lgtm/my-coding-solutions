@@ -8,6 +8,18 @@ class Codechef
 	{
 		Scanner sc=new Scanner(System.in);
 		String s=sc.next();
+		String res="";
+		for(int i=0;i<s.length();i++){
+		    char ch=s.charAt(i);
+		    if(ch>='a'&&ch<='n'){
+		        res=(String)('n'-(ch-'a') );
+		    }
+		    if(ch>='o'&&ch<='z'){
+		        i++;
+		        res=(String)('z'-(ch-'o'));
+		    }
+		}
+		System.out.println(res);
 		
 
 	}
