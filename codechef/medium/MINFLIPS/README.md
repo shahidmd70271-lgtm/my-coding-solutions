@@ -64,7 +64,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-26T14:33:03.552Z  
+**Submitted:** 2026-10-26T14:53:18.957Z  
 
 ```java
 import java.util.*;
@@ -78,6 +78,18 @@ class Codechef
 		Scanner sc=new Scanner(System.in);
 		int t=sc.nextInt();
 		while(t-->0){
+		    int n=sc.nextInt();
+		    int a[]=new int[n];
+		    int x=0;
+		    int y=0;
+		    for(int i=0:i<n;i++){
+		      a[i]=sc.nextInt();
+		      if(a[i]==1)
+		      x++;
+		      else
+		      y++;
+		    } 
+		    if()
 		    
 		    
 		}
