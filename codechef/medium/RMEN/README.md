@@ -70,7 +70,7 @@ Therefore, the decoded message is `beunstoppable`.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-26T15:34:38.960Z  
+**Submitted:** 2026-10-26T15:37:50.024Z  
 
 ```java
 import java.util.*;
@@ -87,11 +87,11 @@ class Codechef
 		for(int i=0;i<s.length();i++){
 		    char ch=s.charAt(i);
 		    if(ch>='a'&&ch<='n'){
-		        res=(String)('n'-(ch-'a') );
+		        res+=(char)('n'-(ch-'a') );
 		    }
-		    if(ch>='o'&&ch<='z'){
+		    if((ch>='o'&&ch<='z')&&(i+1<s.length()&&s.charAt(i+1)=='#') ){
 		        i++;
-		        res=(String)('z'-(ch-'o'));
+		        res+=(char)('z'-(ch-'o'));
 		    }
 		}
 		System.out.println(res);
