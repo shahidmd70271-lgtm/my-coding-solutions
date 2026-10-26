@@ -64,7 +64,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-26T14:53:18.957Z  
+**Submitted:** 2026-10-26T15:02:41.506Z  
 
 ```java
 import java.util.*;
@@ -81,15 +81,23 @@ class Codechef
 		    int n=sc.nextInt();
 		    int a[]=new int[n];
 		    int x=0;
-		    int y=0;
-		    for(int i=0:i<n;i++){
+		    int sum=0;
+		    for(int i=0;i<n;i++){
 		      a[i]=sc.nextInt();
+		      sum+=a[i];
 		      if(a[i]==1)
 		      x++;
-		      else
-		      y++;
 		    } 
-		    if()
+		    if(sum==0){
+		        System.out.println(0);
+		    }
+		    else if(n%2!=0){
+		        System.out.println(-1);
+		    }
+		    else{
+		        int ans=Math.abs(sum)/2;
+		        System.out.println(ans);
+		    }
 		    
 		    
 		}
