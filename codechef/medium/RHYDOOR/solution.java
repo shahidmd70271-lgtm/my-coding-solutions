@@ -14,18 +14,19 @@ class Codechef
 		    int counta=0,countb=0;
 		    for(int i=0;i<n;i++){
 		        char c=s.charAt(i);
-		        if()
+		        if(c=='A'){
+		            counta++;
 		        }else{
 		            countb++;
 		        }
 		    }
 		    int count=0;
-		    //if(counta%3==0){
+		    if(counta%3==0){
 		        count+=counta/3;
-		   // }
-		   // if(countb%3==0){
+		    }
+		    if(countb%3==0){
 		        count+=countb/3;
-		    //}
+		    }
 		    System.out.println(count);
 		    
 		}
