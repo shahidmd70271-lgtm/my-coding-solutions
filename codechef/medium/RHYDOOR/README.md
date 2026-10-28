@@ -66,7 +66,7 @@ BBBBAAAAABBBBBBB
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-28T15:01:32.982Z  
+**Submitted:** 2026-10-28T15:08:38.478Z  
 
 ```java
 import java.util.*;
@@ -85,19 +85,18 @@ class Codechef
 		    int counta=0,countb=0;
 		    for(int i=0;i<n;i++){
 		        char c=s.charAt(i);
-		        if(c=='A'){
-		            counta++;
+		        if()
 		        }else{
 		            countb++;
 		        }
 		    }
 		    int count=0;
-		    if(counta%3==0){
+		    //if(counta%3==0){
 		        count+=counta/3;
-		    }
-		    if(countb%3==0){
+		   // }
+		   // if(countb%3==0){
 		        count+=countb/3;
-		    }
+		    //}
 		    System.out.println(count);
 		    
 		}
