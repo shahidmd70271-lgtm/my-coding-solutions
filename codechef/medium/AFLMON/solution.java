@@ -13,14 +13,19 @@ class Codechef
 		    int a[]=new int[n];
 		    for(int i=0;i<n;i++) a[i]=sc.nextInt();
 		    Arrays.sort(a);
-		    int avg=a[n-2];
-		    int count=0;
+		    int ans=0;
 		    for(int i=0;i<n;i++){
-		        if(a[i]>=avg){
-		            count++;
-		        }
+		        int count=0;
+		       for(int j=0;j<n;j++){
+		           if(a[j]<=a[i]){
+		               count++;
+		           }
+		       }
+		       if(count>n-count){
+		           ans++;
+		       }
 		    }
-		    System.out.println(count);
+		    System.out.println(ans);
 		    
 		    
 		}
