@@ -48,8 +48,8 @@ Explanation: The unique elements are [1,2,3,4,5], and the sum is 15.
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 42.3 MB (beats 95.11%)  
-**Submitted:** 2026-11-09T12:09:36.481Z  
+**Memory:** 42.2 MB (beats 99.26%)  
+**Submitted:** 2026-11-09T12:09:42.381Z  
 
 ```java
 class Solution {
