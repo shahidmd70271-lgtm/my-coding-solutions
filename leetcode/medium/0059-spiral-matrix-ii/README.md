@@ -8,6 +8,8 @@ Given a positive integer `n`, generate an `n x n` `matrix` filled with elements 
 
  
 
+Original
+Java
  **Example 1:** 
 
 ```
@@ -34,8 +36,8 @@ Output: [[1]]
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 42.9 MB (beats 61.78%)  
-**Submitted:** 2026-10-09T13:38:09.256Z  
+**Memory:** 42.5 MB (beats 74.13%)  
+**Submitted:** 2026-11-10T16:47:46.293Z  
 
 ```java
 class Solution {
